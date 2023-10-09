@@ -10,8 +10,12 @@
 <body>
 
     <form action="script.php" method="POST">
-        <input type="text" name="paragraph" id="paragraph">
-        <input type="text" name="badword" id="badword">
+        <div>
+            <textarea name="paragraph" id="paragraph" cols="20" rows="10" placeholder="insert text"></textarea>
+        </div>
+        <div>
+            <input type="text" name="badword" id="badword" placeholder="insert word to not show">
+        </div>
         <button type="submit">Submit</button>
     </form>
 
