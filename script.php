@@ -4,6 +4,8 @@ $paragraph = $_POST('paragraph');
 
 $badWord =  $_POST('badword');
 
+$paragraphLength = strlen($paragraph);
+
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +14,7 @@ $badWord =  $_POST('badword');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bad Words</title>
 </head>
 
 <body>

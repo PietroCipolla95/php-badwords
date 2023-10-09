@@ -14,7 +14,7 @@
             <textarea name="paragraph" id="paragraph" cols="20" rows="10" placeholder="insert text"></textarea>
         </div>
         <div>
-            <input type="text" name="badword" id="badword" placeholder="insert word to not show">
+            <input type="text" name="badword" id="badword" placeholder="insert censored">
         </div>
         <button type="submit">Submit</button>
     </form>
