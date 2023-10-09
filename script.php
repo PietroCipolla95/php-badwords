@@ -6,7 +6,9 @@ $badWord = $_POST['badword'];
 
 $paragraphLength = strlen($paragraph);
 
-$censoredParagraph = str_replace($badWord, '***', $paragraph)
+$censoredParagraph = str_replace($badWord, '***', $paragraph);
+
+$censoredParagraphLength = strlen($censoredParagraph);
 
 ?>
 
@@ -38,7 +40,7 @@ $censoredParagraph = str_replace($badWord, '***', $paragraph)
     </div>
     <div>
         <h3>
-            Censored paragraph:
+            Your censored paragraph is <?php echo $censoredParagraphLength ?> characters long :
         </h3>
         <p>
             <?php echo $censoredParagraph; ?>
